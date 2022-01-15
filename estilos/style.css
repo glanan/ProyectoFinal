@@ -128,7 +128,7 @@ img {
 .imgSol {
     width: 12%;
     margin-bottom: 1rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .imgLuna {
@@ -159,8 +159,7 @@ img {
 
 .contenedorRegistro {
     float: right;
-    position: absolute;
-    top:50%;
+    top: 25%;
     right: 0%;
     background-color: rgba(240, 248, 255, 0.589);
     padding: 3rem;

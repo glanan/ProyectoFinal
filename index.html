@@ -4,126 +4,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/estilos.css" rel="stylesheet">
-    <title>lunas</title>
+    <title>Star char</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="icon" href="./img/297466 (1).svg">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Lunas</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">novedades</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  ubicacion
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item" href="#">sistema solar</a></li>
-                  <li><a class="dropdown-item" href="#"> fuera del sistema solar</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">galileanas</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-light" type="submit">Buscar</button>
-            </form>
+    <header class="header">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+              <h5 class="text-white h4">Collapsed content</h5>
+              <span class="text-muted">Toggleable via the navbar brand.</span>
+            </div>
           </div>
+          <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+                  
+    </header>
+    <section class="section__contenido">
+
+        <div class="div__contenedor">
+           <a href="estrellas.html" class="correcion">
+            <img src="/img/sol.png" class="imgSol">
+           </a>
+            <p class="p__contenedor" >
+               <a href="estrellas.html" class="section__contenido--sol">estrellas</a>
+            </p>
         </div>
-      </nav>
 
-      <div class="boton">
-      <div id="liveAlertPlaceholder"></div>
-<button type="button" class="btn btn-primary" id="liveAlertBtn">Mercurio y Venus</button>
-    </div>
+        <div class="div__contenedor">
 
-<script href="js/index.js" class="js">var alertPlaceholder = document.getElementById('liveAlertPlaceholder')
-    var alertTrigger = document.getElementById('liveAlertBtn')
-    
-    function alert(message, type) {
-      var wrapper = document.createElement('div')
-      wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible" role="alert">' + message + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
-    
-      alertPlaceholder.append(wrapper)
-    }
-    
-    if (alertTrigger) {
-      alertTrigger.addEventListener('click', function () {
-        alert("Mercurio y Venus. Ninguno de ellos tiene lunas, Mercurio se encuentra tan cerca del Sol y de su gravedad que no podría tener su propia luna. Lo más probable sería que cualquier luna chocara contra Mercurio o quizás entrara en órbita alrededor del Sol y, finalmente, este la atraería hacia él. El motivo de que Venus no tenga lunas es un misterio que los científicos aún deben resolver.")
-      })
-    }</script>
+            <a href="lunas.html" class="correcion">
+                <img src="./img/luna.png.png" class="imgLuna">
+            </a>
+            <p class="p__contenedor">
 
-<section class="lista">
-<ol class="list-group list-group-numbered">
-    <li class="list-group-item d-flex justify-content-between align-items-start">
-      <div class="ms-2 me-auto">
-        <div class="fw-bold">tierra</div>
-        numero de lunas:
+                <a href="lunas.html" class="section__contenido--luna">lunas</a>
+            </p>
+
+        </div>
+
+        <div class="div__contenedor">
+
+             <a href="planetas.html" class="correcion">
+                 <img src="http://pngimg.com/uploads/earth/earth_PNG23.png" class="imgPlanetas">
+             </a>
+             <p class="p__contenedor">
+                 <a href="planetas.html" class="section__contenido--planetas">planetas</a>
+             </p>
+         </div>
+
+         <div class="div__contenedor">
+
+            <a href=".html" class="correcion">
+                <img src="/img/547437.png" class="imgPlanetas">
+            </a>
+            <p class="p__contenedor">
+                <a href=".html" class="section__contenido--planetas">constelaciones</a>
+            </p>
+        </div>
+
+    </section>   
+
+    <aside class="aside">
+        <div class="contenedorRegistro">
+          <h2>iniciar sesion</h2>
+          <form id="formRegistro" name="formRegistro">
+            <div class="formulario">
+                <label for="usuario">usuario</label>
+                <input type="text" id="usuario" name="usuario">
+            </div>
+            <div class="formulario">
+                <label for="contraseña">contraseña</label>
+                <input type="password" id="contraseña" name="contraseña" required="true">
+            </div>
+            <div class="formulario">
+                <input type="submit" value="enviar" id="submit">
+            </div>
+         </form>
+        </div>
+
+
+    </aside>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-muted">© 2021 Company, Inc</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+          </ul>
+        </footer>
       </div>
-      <span class="badge bg-primary rounded-pill">1</span>
-    </li>
-    <li class="list-group-item d-flex justify-content-between align-items-start">
-      <div class="ms-2 me-auto">
-        <div class="fw-bold">marte</div>
-        Marte tiene dos lunas, que se llaman Fobos y Deimos 
-        <br>
-      numero de lunas:
-      </div>
-      <span class="badge bg-primary rounded-pill">2</span>
-    </li>
-    <li class="list-group-item d-flex justify-content-between align-items-start">
-      <div class="ms-2 me-auto">
-        <div class="fw-bold">jupiter</div>
-        Júpiter tiene 79 lunas, que sepamos.
-
-        Las más conocidas son Ío, Europa y Calisto. Júpiter también tiene la luna más grande de nuestro sistema solar, Ganímedes.
-        
-        Estas lunas son tan grandes que solo puedes verlas con un par de binoculares.
-        <br>
-        numero de lunas:
-      </div>
-      <span class="badge bg-primary rounded-pill">79</span>
-    </li>
-    <li class="list-group-item d-flex justify-content-between align-items-start">
-        <div class="ms-2 me-auto">
-          <div class="fw-bold">saturno</div>
-          Saturno tiene 53 lunas que ni siquiera tienen nombre. Además, aún hay 29 lunas más por confirmar. No se sabe si existen porque estamos esperando a recibir más información sobre ellas. Si se confirman todas, Saturno tendría 82 lunas, en total.
-          <br>
-          numero de lunas:
-        </div>
-        <span class="badge bg-primary rounded-pill">82</span>
-      </li>
-      <li class="list-group-item d-flex justify-content-between align-items-start">
-        <div class="ms-2 me-auto">
-          <div class="fw-bold">urano</div>
-          Urano tiene 27 lunas que conocemos. Algunas de ellas están compuestas parcialmente por hielo.
-          <br>
-          numero de lunas:
-        </div>
-        <span class="badge bg-primary rounded-pill">27</span>
-      </li>
-      <li class="list-group-item d-flex justify-content-between align-items-start">
-        <div class="ms-2 me-auto">
-          <div class="fw-bold">neptuno</div>
-          Por último, Neptuno tiene 14 lunas conocidas. Una de ellas, Tritón, es tan grande como el planeta enano Plutón.
-          <br>
-          numero de lunas:
-        </div>
-        <span class="badge bg-primary rounded-pill">14</span>
-      </li>
-  </ol>
-</section>
-    <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>

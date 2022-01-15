@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* fondo*/
+
+#bodyFondo {
+    background-image: url("/img/estrellasFondo.jpg");
+    background-color: black;
+    transition: backgraund-color rgb(255, 255, 255);
+} 
+/* h3 */
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+
+}
+/* grid */
+
+
+/* div infos */
+
+.info0 {
+    background-image: url("/img/sol1.jpg");
+    width: 580px;
+    height: 400px;
+    border: whitesmoke solid;
+    overflow: hidden;
+    grid-area: info 0;
+    margin-left: 500px;
+}
+
+.info__0 {
+    width: 580px;
+    height: 400px;
+    background-color: rgba(83, 83, 83, 0.746);
+    -webkit-transition: opacity 0.4s;
+    opacity: 0;
+}
+
+.info0:hover .info__0 {
+    opacity: 1;
+}
+
+.info1 {
+    background-image: url("/img/estrella2.jpg");
+    width: 410px;
+    height: 250px;
+    border: snow solid;
+    grid-area: info1;
+    overflow: auto;
+    float: inline-start;
+    margin: 30px;
+    margin-left: 200px;
+}
+
+.info__1 {
+    width: 410px;
+    height: 250px;
+    background-color: rgba(78, 78, 78, 0.829);
+    -webkit-transition: opacity 0.4s;
+    opacity: 0;
+}
+
+.info1:hover .info__1 {
+    opacity: 1;
+}
+
+.info2 {
+    background-image: url("/img/betelgeuse.jpg");
+    width: 410px;
+    height: 250px;
+    border: whitesmoke solid;
+    grid-area: info2;
+    position: absolute;
+    left: 58rem;
+    top: 30.2rem;
+    margin: 30px;
+    margin-right: 200px;
+}
+
+.info__2 {
+    width: 410px;
+    height: 250px;
+    background-color: rgba(68, 68, 68, 0.712);
+    opacity: 0;
+    -webkit-transition: opacity 0.4s;
+}
+
+.info2:hover .info__2 {
+    opacity: 1;
+}
+
+.info3 {
+    background-image: url("/img/sirio.jpg");
+    width: 410px;
+    height: 250px;
+    border: whitesmoke solid;
+    grid-area: info3;
+    margin: 20px;
+    margin-left: 200px;
+}
+
+.info__3 {
+    width: 410px;
+    height: 250px;
+    background-color: rgba(68, 68, 68, 0.712);
+    opacity: 0;
+    -webkit-transition: opacity 0.4s;
+}
+
+.info3:hover .info__3 {
+    opacity: 1;
+}
+
+.info4 {
+    background-image: url("/img/proxima.jpg");
+    width: 410px;
+    height: 250px;
+    border: whitesmoke solid;
+    grid-area: info4;
+    position: absolute;
+    left: 58rem;
+    top: 48.2rem;
+    margin: 30px;
+    margin-right: 200px ;
+}
+
+.info__4 {
+    width: 410px;
+    height: 250px;
+    background-color: rgba(68, 68, 68, 0.712);
+    opacity: 0;
+    -webkit-transition: opacity 0.4s;
+}
+
+.info4:hover .info__4 {
+    opacity: 1;
+}
+
+.info5 {
+    background-image: url("/img/vega.jpg");
+    width: 410px;
+    height: 250px;
+    border: whitesmoke solid;
+    grid-area: info5;
+    margin: 30px;
+    margin-left: 200px;
+}
+
+.info__5 {
+    width: 410px;
+    height: 250px;
+    background-color: rgba(68, 68, 68, 0.712);
+    opacity: 0;
+    -webkit-transition: opacity 0.4s;
+}
+
+.info5:hover .info__5 {
+    opacity: 1;
+}
+
+.info6 {
+   background-image: url("/img/polar.webp");
+   width: 410px;
+   height: 250px;
+   border: whitesmoke solid;
+   grid-area: info6;
+   position: absolute;
+   left: 60rem;
+   top: 67.8rem;
+}
+.info__6 {
+    width: 410px;
+    height: 250px;
+    background-color: rgba(68, 68, 68, 0.712);
+    opacity: 0;
+    -webkit-transition: opacity 0.4s;
+}
+
+.info6:hover .info__6 {
+    opacity: 1;
+}
+
+/* footer */
+
+.footer__contenido {
+    background-color: rgba(240, 248, 255, 0.664);
+}
+
+.inicio {
+    text-transform: uppercase;
+    padding:5px;
+    margin-left: 5px ;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color:aliceblue;
+    background-color: rgb(0, 0, 0);
+}
+
+/* header */
+
+.header__titulo {
+    background-color: rgba(240, 248, 255, 0.678);
+    text-align: center;
+    width: 800px;
+    margin-left: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+/* titulo por encima */
+
+.titulo {
+   position:absolute;
+   margin-left: 205px;
+   background-color: rgba(240, 248, 255, 0.575);
+   color: black;
+}
+
+.titulo2 {
+    position: absolute;
+    margin-left: 149px;
+    background-color: rgba(240, 248, 255, 0.719);
+    color: black;
+}
+
+.titulo3 {
+    position: absolute;
+    margin-left: 124px;
+    background-color: rgba(240, 248, 255, 0.726);
+    color: black;
+}
+
+.titulo4 {
+    position: absolute;
+    margin-left: 171px;
+    background-color: rgba(240, 248, 255, 0.726);
+    color: black;
+}
+
+.titulo5 {
+    position: absolute;
+    margin-left: 81px;
+    background-color: rgba(240, 248, 255, 0.726);
+    color: black;
+}
+
+.titulo6 {
+    position: absolute;
+    margin-left: 170px;
+    background-color: rgba(240, 248, 255, 0.726);
+    color: black;
+}
+
+.titulo7 {
+    position: absolute;
+    margin-left: 97px;
+    background-color: rgba(240, 248, 255, 0.726);
+    color: black;
+}
+
+/* texto */
+
+.texto {
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.texto2 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}

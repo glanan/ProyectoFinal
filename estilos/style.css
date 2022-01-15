@@ -1,0 +1,239 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* fondo*/
+
+body {
+    background-image: url("https://smd-app-dev.s3.amazonaws.com/ciencia/s3fs-public/mnt/medialibrary/2006/05/30/30may_starsandplanets_resources/westlake1.jpg");
+}
+
+/* header */
+
+.header {
+    background-color: rgb(73, 10, 133);
+}
+
+.header__titulo {
+    color: aliceblue;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-left: 41rem;
+    padding-bottom: 4rem;
+}
+
+.header__logo {
+    position: absolute;
+    top: 2%;
+    padding-left: 2rem;
+}
+ 
+.imgLogo {
+    width: 8rem;
+
+}
+
+.logo:hover {
+    background-color: rgb(74, 28, 133);
+}
+
+
+/* nav */
+
+.nav__buscar {
+    display: flex;
+    float: right;
+    padding-right: 9rem;
+    padding-top: 1rem;
+}
+
+#buscar {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+
+#icono {
+    position: absolute;
+    right: 23%;
+}
+
+#enviar {
+    background-color: rgb(161, 78, 238);
+    border: 1px solid blanchedalmond;
+    color: #fff;
+}
+
+#enviar:hover {
+    background-color: aliceblue;
+    color: rgb(168, 83, 248);
+}
+
+.header__nav ul {
+    list-style-type: none;
+    padding: 2rem;
+}
+
+.header__nav li {
+    display: inline;
+    float: right;
+}
+
+.header__nav a {
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    padding: 1.1rem;
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(89, 40, 136);
+    
+}
+
+/*section*/
+
+.div__contenedor {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+.p__contenedor {
+    background-color: rgba(240, 248, 255, 0.678);
+    width: 30%;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border-radius: 45%;
+    margin-left: 35%;
+}
+
+.section__contenido--sol {
+    text-decoration: none;
+    background-color: none;
+    color: rgb(0, 0, 0);
+}
+
+.section__contenido--luna {
+    text-decoration: none;
+    background-color: none;
+    color:black;
+}
+
+.imgSol {
+    width: 12%;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.imgLuna {
+    width: 14%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.imgPlanetas {
+    width: 10.5%;;
+    margin-top: 2rem ;
+    margin-bottom: 2rem;
+}
+
+.section__contenido--planetas {
+    text-decoration: none;
+    background-color:  none;
+    color:black;
+
+}
+
+/* aside */
+
+.aside {
+    background-color: rgba(255, 255, 255, 0.596);
+
+}
+
+.contenedorRegistro {
+    float: right;
+    position: absolute;
+    top:50%;
+    right: 0%;
+    background-color: rgba(240, 248, 255, 0.589);
+    padding: 3rem;
+    position: fixed;
+    
+}
+
+.contenedorRegistro h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contenedorRegistro .formulario input {
+    width: 100%;
+    padding: 10px 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    
+}
+
+/* footer */
+
+.footer {
+    background-color: rgb(31, 15, 46);
+}
+
+.footer__contenido {
+   margin-left: 3rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+
+.footer__contenido ul {
+    list-style-type: none;
+    display: inline;
+    color:rgb(145, 147, 148)
+}
+
+.footer__contenido a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.footer__contenido a:hover {
+    background-color: rgb(78, 0, 151);
+}
+
+
+.footer__contenido--segundo {
+    position: absolute;
+    right: 75%;
+    top: 171%;
+}
+
+.footer__contenido--tercero {
+    position: absolute;
+    right: 65%;
+    top: 171%;
+}
+
+/*h3*/
+
+h3 {
+    text-transform: uppercase;
+    color: rgb(241, 220, 243);
+}
+
+/* correcion de fondo */
+
+.correcion:hover {
+    background-color: transparent;
+    color: transparent;
+}

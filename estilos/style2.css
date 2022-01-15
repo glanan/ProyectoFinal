@@ -1,0 +1,89 @@
+/* fondo body*/
+
+#fondoBody {
+    background-color: blueviolet;
+    background-image: url("/img/fondoBody.jpg");
+}
+
+/* grid */
+
+#gridNovedades {
+    display: grid;
+    grid-template-areas: 
+    "header header header header header"
+    "info1 info1 info2 info2 aside"
+    "info1 info1 info2 info2 aside"
+    "info1 info1 info2 info2 aside"
+    "info3 info3 info4 info4 aside"
+    "info3 info3 info4 info4 aside"
+    "info3 info3 info4 info4 aside"
+    "footer footer footer footer aside";
+
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 20% auto 15%;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px ;
+    height: 100vh;
+}
+
+.header__contenido {
+    background-color: rgba(240, 248, 255, 0.61);
+    grid-area: header;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+
+.section__contenido {
+    background-color: rgba(240, 248, 255, 0.479);
+    background-image: url("/img/cohete2.jpeg");
+    border: rgba(255, 255, 255, 0.719) solid;
+    grid-area: info1;
+
+}
+
+.section__contenido2 {
+    background-color: rgba(240, 248, 255, 0.486);
+    background-image: url("/img/cometa.jpg");
+    border: rgba(255, 255, 255, 0.685) solid;
+    grid-area: info2;
+}
+
+.section__contenido3 {
+    background-color: rgba(240, 248, 255, 0.486);
+    background-image: url("/img/sonda.jpg");
+    border: rgba(255, 255, 255, 0.726) solid;
+    grid-area: info3;
+}
+
+.section__contenido4 {
+    background-color: rgba(240, 248, 255, 0.466);
+    background-image: url("/img/aguj.jpg");
+    border: rgba(255, 255, 255, 0.678) solid;
+    grid-area: info4;
+}
+
+.aside__contenido {
+    background-color: rgba(240, 248, 255, 0.452);
+    background-image: url("/img/marte.jpg");
+    border: rgba(255, 255, 255, 0.671) solid;
+    grid-area: aside;
+}
+
+.footer__contenido {
+    background-color: rgba(146, 146, 146, 0.658);
+    border: rgba(255, 255, 255, 0.733) solid ;
+    grid-area: footer;
+}
+
+/*   a  y h3   */
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,35 @@
+body {
+    background-image: url("/img/gifFonde.gif");
+}
+
+.navbar-brand {
+    margin-left: 38rem;
+}
+
+.estelar {
+    overflow: auto;
+    float: left;
+    margin-top: 10rem;
+    margin-left: 15rem;
+}
+
+.exploracion {
+    overflow: auto;
+    float: right;
+    margin-top: 10rem;
+    margin-right: 15rem;
+}
+
+h4 {
+    text-align: center ;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+img:hover{
+    border: 5px solid rgba(233, 233, 233, 0.651);
+}

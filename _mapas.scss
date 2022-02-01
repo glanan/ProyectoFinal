@@ -1,0 +1,49 @@
+$mapasRedes:(faceboock:rgb(21, 21, 228),instagram:rgb(211, 72, 141), twitter:rgb(111, 162, 255));
+
+@each $azul, $color in $mapasRedes {
+    .#{$azul} {
+        color: $color;
+    }
+}
+
+$estilo:(
+    color: rgba(114, 114, 114, 0.486),
+    tamFuente: 20px,
+);
+
+.seccion2 {
+    background-color: map-get($estilo, color );
+    font-size: map-get($estilo, tamFuente);
+    height: 350px;
+    width: 400px;
+    text-align: center;
+}
+
+.seccion1{
+    background-color: map-get($estilo, color);
+    font-size: map-get($estilo, tamFuente);
+    height: 350px;
+    width: 400px;
+    text-align: left;
+
+    h2 {
+        text-align: center;
+    }
+
+    li {
+        display: block;
+
+    
+    a {
+        text-decoration: none;
+        font-size: 30px;
+    }
+       }
+
+}
+section {
+    margin-left: 10rem;
+    margin-top: 3rem;
+    float: left;
+}
+

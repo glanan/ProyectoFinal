@@ -1,0 +1,18 @@
+@mixin parrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.parrafoConEstilo {
+    @include parrafo;
+}
+
+footer {
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 36rem; 
+    border: 3px solid black;
+}
+  }

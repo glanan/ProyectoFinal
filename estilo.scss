@@ -1,0 +1,36 @@
+@import "variables";
+@import "mapas";
+@import "extend";
+@import "mixin";
+
+.cabecero {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+        color: $colorPrimario;
+        text-transform: uppercase;
+        margin: 1rem;
+    }
+
+    li {
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+            color: $colorPrimario;
+            text-transform: uppercase;
+            margin: 1rem;
+
+            &:hover {
+                border-bottom: 1px solid $colorPrimario;
+            }
+        }
+    }
+}
+
+body {
+    background-color: rgb(100, 20, 76);
+}

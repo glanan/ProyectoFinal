@@ -7,21 +7,23 @@
     <title>Star char</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="stylesheet" href="./estilos/mapa.css">
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" href="./img/297466 (1).svg">
+    <meta name="description" content="Informacion basica acerca de los rincones del universo como en: planetas, estrellas, satelites, etc.">
+    <meta name="keywords" content="PLANETAS, ESTRELLAS, MAPA ESTELAR, SATELITES, CONSTELACIONES, ESPACIO, UNIVERSO">
 </head>
 <body>
     <header class="header">
       <nav class="navbar navbar-light bg-secondary fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Mapa estelar</a>
+          <a class="navbar-brand" href="mapa.html"><h1>mapa estelar</h1></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">otros</h5>
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
@@ -60,7 +62,7 @@
 
         <div class="div__contenedor">
            <a href="estrellas.html" class="correcion">
-            <img src="/img/sol.png" class="imgSol">
+            <img src="/img/sol.png" class="imgSol" alt="sol">
            </a>
             <p class="p__contenedor" >
                <a href="estrellas.html" class="section__contenido--sol">estrellas</a>
@@ -70,7 +72,7 @@
         <div class="div__contenedor">
 
             <a href="lunas.html" class="correcion">
-                <img src="./img/luna.png.png" class="imgLuna">
+                <img src="./img/luna.png.png" class="imgLuna" alt="luna">
             </a>
             <p class="p__contenedor">
 
@@ -82,7 +84,7 @@
         <div class="div__contenedor">
 
              <a href="planetas.html" class="correcion">
-                 <img src="http://pngimg.com/uploads/earth/earth_PNG23.png" class="imgPlanetas">
+                 <img src="http://pngimg.com/uploads/earth/earth_PNG23.png" class="imgPlanetas" alt="planeta">
              </a>
              <p class="p__contenedor">
                  <a href="planetas.html" class="section__contenido--planetas">planetas</a>
@@ -92,33 +94,24 @@
          <div class="div__contenedor">
 
             <a href="constelaciones.html" class="correcion">
-                <img src="/img/547437.png" class="imgPlanetas">
+                <img src="/img/547437.png" class="imgPlanetas" alt="constelacion">
             </a>
             <p class="p__contenedor">
                 <a href="constelaciones.html" class="section__contenido--planetas">constelaciones</a>
             </p>
         </div>
 
+        <div class="div__contenedor">
+
+          <a href="satelites.html" class="correcion">
+              <img src="/img/satelite.png.crdownload" class="imgPlanetas" alt="satelite">
+          </a>
+          <p class="p__contenedor">
+              <a href="satelites.html" class="section__contenido--planetas">satelites</a>
+          </p>
+      </div>
+
     </section>   
-
-    <aside class="aside">
-        <div class="contenedorRegistro">
-          <h2>iniciar sesion</h2>
-          <form id="formRegistro" name="formRegistro">
-            <div class="formulario">
-                <label for="usuario">usuario</label>
-                <input type="text" id="usuario" name="usuario">
-            </div>
-            <div class="formulario">
-                <label for="contraseña">contraseña</label>
-                <input type="password" id="contraseña" name="contraseña" required="true">
-            </div>
-            <div class="formulario">
-                <input type="submit" value="enviar" id="submit">
-            </div>
-         </form>
-        </div>
-
 
     </aside>
 
@@ -130,13 +123,12 @@
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
           <p class="col-md-4 mb-0 text-muted">© 2021 Company, Inc</p>
       
-          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-          </a>
-      
           <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="estrellas.html" class="nav-link px-2 text-muted">estrellas</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">lunas</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">planetas</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">constelaciones</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">satelites</a></li>
           </ul>
         </footer>
       </div>

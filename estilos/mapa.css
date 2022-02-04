@@ -1,0 +1,114 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* fondo*/
+
+body {
+    background-image: url("https://smd-app-dev.s3.amazonaws.com/ciencia/s3fs-public/mnt/medialibrary/2006/05/30/30may_starsandplanets_resources/westlake1.jpg");
+}
+
+/* header */
+
+.header {
+    background-color: rgb(73, 10, 133);
+    margin-bottom: 3rem;
+}
+
+.header__titulo {
+    color: aliceblue;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-left: 41rem;
+    padding-bottom: 4rem;
+}
+
+.header__logo {
+    position: absolute;
+    top: 2%;
+    padding-left: 2rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-left: 2rem ;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*section*/
+
+.div__contenedor {
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: 220px;
+}
+
+.p__contenedor {
+    background-color: rgba(240, 248, 255, 0.589);
+    width: 30%;
+    text-transform: uppercase;
+    border-radius: 45%;
+    margin-left: 35%;
+}
+
+.section__contenido--sol {
+    text-decoration: none;
+    background-color: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.section__contenido--luna {
+    text-decoration: none;
+    background-color: none;
+    color:black;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.imgSol {
+    width: 16%;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+    height: 250px;
+}
+
+.imgLuna {
+    width: 19%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 300px;
+}
+
+.imgPlanetas {
+    width: 14%;;
+    margin-top: 2rem ;
+    margin-bottom: 2rem;
+}
+
+.section__contenido--planetas {
+    text-decoration: none;
+    background-color:  none;
+    color:black;
+    font-size: 1.5rem;
+    text-align: center;
+    height: 4000px;
+
+}
+/*h3*/
+
+h3 {
+    text-transform: uppercase;
+    color: rgb(241, 220, 243);
+}
+
+/* correcion de fondo */
+
+.correcion:hover {
+    background-color: transparent;
+    color: transparent;
+}

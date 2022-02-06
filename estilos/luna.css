@@ -1,0 +1,12 @@
+body {
+    background-image: url("/img/espacioFondo.jpg");
+    color: aliceblue;
+}
+
+.list-group-item {
+    background-color: rgba(250, 250, 250, 0.767);
+}
+
+.nav-item {
+    color: rgb(240, 248, 255);
+}

@@ -11,8 +11,20 @@
 footer {
 a {
     text-decoration: none;
-    color: black;
-    margin-left: 36rem; 
-    border: 3px solid black;
+    color: rgb(255, 255, 255);
+    display: flex; 
+    justify-content: center;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 3px;
+
+    &:hover {
+        border: 5px solid blanchedalmond;
+    }
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
 }
   }

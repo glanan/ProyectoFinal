@@ -41,9 +41,8 @@ $estilo:(
        }
 
 }
-section {
-    margin-left: 10rem;
-    margin-top: 3rem;
-    float: left;
+.flex {
+   display: flex;
+   justify-content: space-around;
 }
 

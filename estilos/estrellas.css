@@ -21,6 +21,17 @@ h2 {
 
 /* div infos */
 
+.gridEstrellas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gridEstrellas2{
+    display: flex;
+    justify-content: space-around;
+}
+
 .info0 {
     background-image: url("/img/sol1.jpg");
     width: 580px;
@@ -49,9 +60,7 @@ h2 {
     width: 410px;
     height: 250px;
     border: snow solid;
-    overflow: auto;
     margin: 30px;
-    float: left;
 }
 
 .info__1 {
@@ -72,8 +81,6 @@ h2 {
     height: 250px;
     border: whitesmoke solid;
     margin: 30px;
-    float: right;
-
 }
 
 .info__2 {
@@ -93,8 +100,6 @@ h2 {
     width: 410px;
     height: 250px;
     border: whitesmoke solid;
-    overflow: auto;
-    float: left;
     margin: 30px;
 }
 
@@ -115,7 +120,6 @@ h2 {
     width: 410px;
     height: 250px;
     border: whitesmoke solid;
-    float: right;
     margin: 30px;
 }
 
@@ -136,8 +140,6 @@ h2 {
     width: 410px;
     height: 250px;
     border: whitesmoke solid;
-    overflow: auto;
-    float: left;
     margin: 30px;
 }
 
@@ -158,7 +160,6 @@ h2 {
    width: 410px;
    height: 250px;
    border: whitesmoke solid;
-   float: right;
    margin: 30px;
 }
 .info__6 {
@@ -177,11 +178,9 @@ h2 {
 
 .footer__contenido {
     background-color: rgba(240, 248, 255, 0.664);
-    overflow: auto;
     margin: auto;
     display: flex;
     justify-content: center;
-    margin-top: 1000px;
 }
 
 .inicio {

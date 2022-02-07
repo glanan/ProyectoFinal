@@ -2,22 +2,14 @@ body {
     background-image: url("/img/gifFonde.gif");
 }
 
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
 .navbar-brand {
-    margin-left: 38rem;
-}
-
-.estelar {
-    overflow: auto;
-    float: left;
-    margin-top: 10rem;
-    margin-left: 15rem;
-}
-
-.exploracion {
-    overflow: auto;
-    float: right;
-    margin-top: 10rem;
-    margin-right: 15rem;
+    margin-left: 45%;
 }
 
 h4 {

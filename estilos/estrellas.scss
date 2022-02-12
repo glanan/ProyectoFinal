@@ -10,7 +10,7 @@
     background-color: black;
     transition: backgraund-color rgb(255, 255, 255);
 } 
-/* h3 */
+/* h2 */
 
 h2 {
     color: rgb(255, 255, 255);
@@ -41,19 +41,20 @@ h2 {
     display:flex;
     margin:auto;
 
-  }
-
-.info__0 {
+ .info__0 {
     width: 580px;
     height: 400px;
     background-color: rgba(83, 83, 83, 0.746);
     -webkit-transition: opacity 0.4s;
     opacity: 0;
-}
+ }
+  }
 
 .info0:hover .info__0 {
     opacity: 1;
 }
+
+
 
 .info1 {
     background-image: url("/img/estrella2.jpg");
@@ -61,19 +62,21 @@ h2 {
     height: 250px;
     border: snow solid;
     margin: 30px;
-}
 
-.info__1 {
+ .info__1 {
     width: 410px;
     height: 250px;
     background-color: rgba(78, 78, 78, 0.829);
     -webkit-transition: opacity 0.4s;
     opacity: 0;
+   }
 }
 
 .info1:hover .info__1 {
     opacity: 1;
 }
+
+
 
 .info2 {
     background-image: url("/img/betelgeuse.jpg");
@@ -81,19 +84,22 @@ h2 {
     height: 250px;
     border: whitesmoke solid;
     margin: 30px;
-}
 
-.info__2 {
+    .info__2 {
     width: 410px;
     height: 250px;
     background-color: rgba(68, 68, 68, 0.712);
     opacity: 0;
     -webkit-transition: opacity 0.4s;
+  }
+
 }
 
 .info2:hover .info__2 {
     opacity: 1;
 }
+
+
 
 .info3 {
     background-image: url("/img/sirio.jpg");
@@ -101,19 +107,21 @@ h2 {
     height: 250px;
     border: whitesmoke solid;
     margin: 30px;
-}
 
-.info__3 {
+    .info__3 {
     width: 410px;
     height: 250px;
     background-color: rgba(68, 68, 68, 0.712);
     opacity: 0;
     -webkit-transition: opacity 0.4s;
+  }
 }
 
 .info3:hover .info__3 {
     opacity: 1;
 }
+
+
 
 .info4 {
     background-image: url("/img/proxima.jpg");
@@ -121,19 +129,21 @@ h2 {
     height: 250px;
     border: whitesmoke solid;
     margin: 30px;
-}
 
-.info__4 {
+    .info__4 {
     width: 410px;
     height: 250px;
     background-color: rgba(68, 68, 68, 0.712);
     opacity: 0;
     -webkit-transition: opacity 0.4s;
+  }
 }
 
 .info4:hover .info__4 {
     opacity: 1;
 }
+
+
 
 .info5 {
     background-image: url("/img/vega.jpg");
@@ -141,19 +151,21 @@ h2 {
     height: 250px;
     border: whitesmoke solid;
     margin: 30px;
-}
 
-.info__5 {
+    .info__5 {
     width: 410px;
     height: 250px;
     background-color: rgba(68, 68, 68, 0.712);
     opacity: 0;
     -webkit-transition: opacity 0.4s;
+  }
 }
 
 .info5:hover .info__5 {
     opacity: 1;
 }
+
+
 
 .info6 {
    background-image: url("/img/polar.webp");
@@ -161,13 +173,14 @@ h2 {
    height: 250px;
    border: whitesmoke solid;
    margin: 30px;
-}
-.info__6 {
+
+   .info__6 {
     width: 410px;
     height: 250px;
     background-color: rgba(68, 68, 68, 0.712);
     opacity: 0;
     -webkit-transition: opacity 0.4s;
+ }
 }
 
 .info6:hover .info__6 {
@@ -181,23 +194,23 @@ h2 {
     margin: auto;
     display: flex;
     justify-content: center;
-}
 
-.inicio {
+    .inicio {
     text-transform: uppercase;
     padding:5px;
     margin-left: 5px ;
+ }
 }
 
-a {
+ a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-}
 
-a:hover {
+    &:hover {
     color:aliceblue;
     background-color: rgb(0, 0, 0);
 }
+  }
 
 /* header */
 
@@ -211,10 +224,10 @@ a:hover {
     justify-content: center;
     margin: auto;
     margin-bottom: 20px;
-}
 
-h1 {
+    h1 {
     text-transform: uppercase;
+}
 }
 
 /* titulo por encima */

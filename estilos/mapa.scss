@@ -14,13 +14,14 @@ body {
 .header {
     background-color: rgb(73, 10, 133);
     margin-bottom: 3rem;
-}
 
-h1 {
+    h1 {
     text-transform: uppercase;
     margin-left: 2rem ;
     font-family: 'Courier New', Courier, monospace;
+ }
 }
+
 /*section*/
 
 .div__contenedor {
@@ -33,22 +34,32 @@ h1 {
     text-transform: uppercase;
     border-radius: 45%;
     margin-left: 35%;
-}
 
-.section__contenido--sol {
+    .section__contenido--sol {
     text-decoration: none;
     background-color: none;
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
     text-align: center;
-}
+ }
 
-.section__contenido--luna {
+    .section__contenido--luna {
     text-decoration: none;
     background-color: none;
     color:black;
     font-size: 1.5rem;
     text-align: center;
+ } 
+
+    .section__contenido--planetas {
+    text-decoration: none;
+    background-color:  none;
+    color:black;
+    font-size: 1.5rem;
+    text-align: center;
+    height: 4000px;
+
+ }
 }
 
 .imgSol {
@@ -69,15 +80,7 @@ h1 {
     margin-bottom: 2rem;
 }
 
-.section__contenido--planetas {
-    text-decoration: none;
-    background-color:  none;
-    color:black;
-    font-size: 1.5rem;
-    text-align: center;
-    height: 4000px;
 
-}
 /*h3*/
 
 h3 {

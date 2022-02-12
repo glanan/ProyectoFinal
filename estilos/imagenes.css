@@ -1,0 +1,48 @@
+body {
+    background-image: url("/img/espacioFondo.jpg");
+}
+
+img {
+    width: 300px;
+    height: 400px;
+}
+
+img:hover{
+    border: 2px solid rgba(245, 245, 220, 0.575);
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: rgba(240, 248, 255, 0.623);
+    padding: 8px;
+    margin: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(240, 248, 255, 0.616);
+    padding: 3px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    border-bottom: 2px solid black;
+}

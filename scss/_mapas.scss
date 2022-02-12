@@ -24,7 +24,10 @@ $estilo:(
     font-size: map-get($estilo, tamFuente);
     height: 350px;
     width: 400px;
-    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
 
     h2 {
         text-align: center;

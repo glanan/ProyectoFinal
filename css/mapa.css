@@ -59,21 +59,25 @@ body {
 }
 
 .imgSol {
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   margin-top: 4rem;
-  width: 16%;
+  width: 19%;
 }
 
 .imgLuna {
-  width: 19%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  width: 22%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .imgPlanetas {
-  width: 14%;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  width: 16%;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.imgPlaneta {
+  width: 29%;
 }
 
 /*h3*/
